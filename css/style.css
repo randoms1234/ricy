@@ -41,19 +41,19 @@ header a{
 .content, .content1{
   font-size: 25px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-gap: 1px;
 }
 .content1{
-  grid-template-columns: repeat(2, 1fr);
+  /*grid-template-columns: repeat(2, 1fr);*/
   justify-content: center;
   padding-left: 8em;
 }
 
 
-.content article, a{
+.content a{
   border: 1px solid white;
-  border-radius: 10px;
+  border-radius: 5px;
   padding: 0.2em;
   margin: 0 0 1em 0;
 }
