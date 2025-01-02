@@ -67,6 +67,15 @@ a:hover{
 img{
   max-width: 50%;
 }
+#year1 #btmhr{
+  display: none;
+}
+#year2 article{
+  padding-bottom: 3.4em;
+}
+#year3{
+  font-size: 25px;
+}
 
 
 @media (max-width: 600px) {
@@ -81,6 +90,12 @@ img{
     margin-left: auto;
     margin-right: auto;
 
+  }
+  #year1 #btmhr{
+    display: block;
+  }
+  #year2 article a{
+    display: block;
   }
 }
 
